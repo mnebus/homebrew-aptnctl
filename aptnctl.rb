@@ -3,7 +3,7 @@ class Aptnctl < Formula
   homepage "https://github.com/mnebus/aptnctl"
   version "0.1.1"
   url "https://github.com/mnebus/aptnctl/archive/v#{version}.tar.gz"
-  sha256 "auto" # Homebrew computes this from the tarball
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5" # Homebrew computes this from the tarball
 
   # Explicitly depend on the Ubuntu MicroK8s formula from their tap
   depends_on "ubuntu/microk8s/microk8s" => :recommended
